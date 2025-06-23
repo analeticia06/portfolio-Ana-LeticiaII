@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@300;400;500;600;700&display=swap');
+
+:root {
+    --cor-principal: #6E859F;
+    --cor-secundaria: #284260;
+    --cor-destaque: #C92BFC;
+    --cor-fundo: #f9f9f9;
+    --cor-branco: #ffffff;
+}
+
+body {
+    font-family: 'Chakra Petch', sans-serif;
+    color: var(--cor-principal);
+    background-color: var(--cor-fundo);
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2, h5 {
+    color: var(--cor-secundaria);
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.lead, .btn-link {
+    color: var(--cor-destaque);
+    font-weight: 700;
+}
+
+a, .btn-link:hover {
+    color: var(--cor-principal);
+    text-decoration: none;
+}
+
+a:hover {
+    color: var(--cor-destaque);
+    text-decoration: underline;
+}
+
+.badge {
+    margin-right: 8px;
+    font-size: 1rem;
+    padding: 0.6em 1em;
+    border-radius: 12px;
+}
+
+.card {
+    box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+    border: none;
+    transition: transform 0.3s ease;
+}
+
+.card:hover {
+    transform: scale(1.02);
+}
+
+.card-title {
+    font-weight: 600;
+    color: var(--cor-secundaria);
+}
+
+.card-text {
+    font-size: 0.95rem;
+    color: var(--cor-principal);
+}
+
+.modal-content {
+    border: 2px solid var(--cor-destaque);
+}
+
+.modal-title {
+    color: var(--cor-secundaria);
+    font-weight: 700;
+}
+
+.modal-footer a {
+    color: var(--cor-destaque);
+    font-weight: 600;
+    margin-right: 10px;
+}
+
+footer {
+    border-top: 2px solid var(--cor-principal);
+    margin-top: 60px;
+    padding-top: 40px;
+    background-color: var(--cor-branco);
+    text-align: center;
+    color: var(--cor-principal);
+}
+
+footer a {
+    color: var(--cor-destaque);
+    font-weight: 500;
+}
+
+footer a:hover {
+    color: var(--cor-secundaria);
+}

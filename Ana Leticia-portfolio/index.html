@@ -1,0 +1,101 @@
+<!-- Salve como portfolio-ana-leticia.html -->
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Portfólio de Ana Letícia</title>
+</head>
+<body>
+    <header class="container text-center">
+        <p class="lead">Eu sou Ana Letícia_</p>
+        <h1>Sou estudante do segundo ano do Ensino Médio</h1>
+        <p>Sou Ana Letícia, estudante da Escola Astro Gildo Arruda. Sou uma pessoa protagonista e aceito novos desafios.</p>
+        <p>Minhas habilidades</p>
+        <div>
+            <p class="badge bg-secondary">HTML</p>
+            <p class="badge bg-secondary">CSS</p>
+            <p class="badge bg-secondary">JavaScript</p>
+            <p class="badge bg-secondary">Scratch</p>
+        </div>
+    </header>
+
+    <main class="container mt-5">
+        <h2>Meus projetos</h2>
+        <div class="row">
+            <!-- Projeto 1 -->
+            <div class="col-md-6">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">Jogo de Corrida</h5>
+                        <p class="card-text">Um jogo desenvolvido com p5.js onde o jogador controla um carro que deve desviar de obstáculos.</p>
+                        <button type="button" class="btn btn-link" data-bs-toggle="modal" data-bs-target="#modal1">Veja o projeto</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Projeto 2 -->
+            <div class="col-md-6">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">Meu Portfólio</h5>
+                        <p class="card-text">Repositório com meus projetos desenvolvidos usando HTML, CSS e JavaScript.</p>
+                        <button type="button" class="btn btn-link" data-bs-toggle="modal" data-bs-target="#modal2">Veja o projeto</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- Modal 1 -->
+    <div class="modal" id="modal1" tabindex="-1">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Jogo de Corrida</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Fechar"></button>
+                </div>
+                <div class="modal-body">
+                    <p>Este jogo foi criado com a biblioteca p5.js. O jogador precisa guiar o carro desviando de obstáculos para pontuar.</p>
+                    <img src="img/projeto-1.png" class="img-fluid w-100" alt="Jogo de Corrida">
+                </div>
+                <div class="modal-footer">
+                    <a href="https://editor.p5js.org/AnaL14/sketches/HEMi99xzo" target="_blank">Ver projeto ao vivo</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal 2 -->
+    <div class="modal" id="modal2" tabindex="-1">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Meu Portfólio</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Fechar"></button>
+                </div>
+                <div class="modal-body">
+                    <p>Este portfólio reúne meus principais projetos criados no Ensino Médio utilizando HTML, CSS e JavaScript.</p>
+                    <img src="img/projeto-2.png" class="img-fluid w-100" alt="Meu Portfólio">
+                </div>
+                <div class="modal-footer">
+                    <a href="https://github.com/analeticia06/portfolio-Ana-LeticiaII" target="_blank">Ver projeto no GitHub</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer class="container py-5">
+        <h2>Entre em contato</h2>
+        <div>
+            <a href=>00001118498732sp@al.educacao.sp.gov.br</a>
+        </div>
+        <p class="my-5 text-center">© 2025. Produzido por Ana Leticia</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
